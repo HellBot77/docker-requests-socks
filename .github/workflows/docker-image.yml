@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  PLATFORMS: linux/arm64
+  PLATFORMS: linux/arm64,linux/amd64
   SOURCE_REPOSITORY: requests
   DOCKERHUB_REPOSITORY: helllord/requests-socks
 
